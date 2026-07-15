@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nola Schroeder — Graphic Design &amp; Illustration</title>
+<meta name="description" content="Nola Schroeder is a graphic designer and illustrator making bold identities, playful illustration, and design that doesn't take itself too seriously.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#top" class="display wordmark">NOLA SCHROEDER</a>
+  <nav class="site-nav">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="top" class="hero wrap">
+  <h1 class="display">GRAPHIC DESIGN<br>&amp; ILLUSTRATION<span class="accent">.</span></h1>
+  <p>Hi, I'm Nola — I make bold identities, playful illustration, and design that doesn't take itself too seriously.</p>
+</section>
+
+<section id="work" class="work wrap">
+  <div class="work-heading">
+    <h2 class="display">SELECTED WORK</h2>
+    <span class="work-count" id="workCount"></span>
+  </div>
+
+  <div class="work-grid" id="workGrid">
+    <p class="work-empty">Loading work…</p>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="wrap">
+    <div>
+      <h2 class="display">ABOUT<span class="accent">.</span></h2>
+      <p>I'm a graphic designer and illustrator who loves turning weird little ideas into brands people actually remember. From scrappy sketches to full identity systems — logos, packaging, editorial, apparel — I bring a hand-drawn, slightly cheeky energy to every project. Based wherever my laptop is, currently taking on new clients.</p>
+    </div>
+    <div class="about-actions">
+      <a href="assets/resume.pdf" download class="resume-btn">DOWNLOAD RESUME ↓</a>
+      <p class="resume-note">PDF · updated 2026</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact wrap">
+  <h2 class="display">LET'S MAKE<br>SOMETHING<span style="color: var(--blue);">.</span></h2>
+  <a href="mailto:hello@nolaschroeder.com" class="contact-email">hello@nolaschroeder.com</a>
+  <div class="social-links">
+    <a href="https://www.instagram.com/doodlesbynola/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="https://www.behance.net/nolarain" target="_blank" rel="noopener noreferrer">Behance</a>
+    <a href="https://www.linkedin.com/in/nola-schroeder-020464227/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </div>
+</section>
+
+<footer class="site-footer wrap">
+  <span>© 2026 Nola Schroeder</span>
+  <span>Graphic Designer &amp; Illustrator</span>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <div class="lightbox-inner">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <div class="lightbox-header">
+      <h3 id="lightboxTitle"></h3>
+      <span id="lightboxCategory"></span>
+    </div>
+    <div class="lightbox-scroll" id="lightboxScroll"></div>
+  </div>
+</div>
+
+<script src="work.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

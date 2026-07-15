@@ -1,0 +1,87 @@
+window.WORK_PROJECTS = [
+  {
+    "slug": "illustrations",
+    "title": "Character Illustrations",
+    "category": "Illustration",
+    "year": "",
+    "accent": "pink",
+    "cover": "assets/work/illustrations/thumb/01.webp",
+    "images": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp",
+      "16.webp"
+    ]
+  },
+  {
+    "slug": "north-wind-branding",
+    "title": "North Wind Branding",
+    "category": "",
+    "year": "",
+    "accent": "blue",
+    "cover": "assets/work/north-wind-branding/thumb/01.webp",
+    "images": [
+      "01.webp",
+      "02.webp"
+    ]
+  },
+  {
+    "slug": "pomelo-coffee",
+    "title": "Pomelo Coffee",
+    "category": "Brand Identity",
+    "year": "",
+    "accent": "blue",
+    "cover": "assets/work/pomelo-coffee/thumb/01.webp",
+    "images": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp"
+    ]
+  },
+  {
+    "slug": "posters",
+    "title": "Poster Design",
+    "category": "Poster Series",
+    "year": "",
+    "accent": "pink",
+    "cover": "assets/work/posters/thumb/01.webp",
+    "images": [
+      "01.webp",
+      "02.webp"
+    ]
+  },
+  {
+    "slug": "rosin-jar-packaging-design",
+    "title": "Rosin Jar",
+    "category": "Packaging Design",
+    "year": "",
+    "accent": "blue",
+    "cover": "assets/work/rosin-jar-packaging-design/thumb/01.webp",
+    "images": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp"
+    ]
+  }
+];
